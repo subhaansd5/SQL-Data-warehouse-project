@@ -11,7 +11,7 @@ This repository contains a basic SQL-based data warehouse project. It demonstrat
 ## Table of Contents
 
 - [About This Project](#about-this-project)
-- [Data architecture](#Data-architecture)
+- [Data Architecture](#data-architecture)
 - [How It Works](#how-it-works)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
@@ -31,7 +31,7 @@ This project simulates a simple data warehouse. My goal was to create a clear ex
 
 It's a foundational project to understand how data moves from its raw state to a usable analytical database.
 
-##Data Architecture
+## Data Architecture
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
 ![Data Architecture](Docs/data_architecture.png)
 
@@ -88,7 +88,7 @@ The data processing happens through SQL scripts in order:
 7.  **Verify:** Check the tables in the `Gold layer` schema in SSMS to see the results.
 
 ## Project Structure
-
+```
 data-warehouse-project/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
@@ -110,10 +110,11 @@ data-warehouse-project/
 ├── LICENSE                             # License information for the repository
 ├── .gitignore                          # Files and directories to be ignored by Git
 └── requirements.txt                    # Dependencies and requirements for the project
-
+```
+---
 ## Contact
 
 Feel free to connect:
 
-* **Your Name:** [[My LinkedIn Profile](https://www.linkedin.com/in/subhan-sayyed-559374137 )]
-* **GitHub:** [[My GitHub Profile](https://github.com/subhaansd5)]
+* **Subhan Sayyed:** [[LinkedIn](https://www.linkedin.com/in/subhan-sayyed-559374137 )]
+* **GitHub:** [[GitHub](https://github.com/subhaansd5)]
